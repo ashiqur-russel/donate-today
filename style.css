@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+body{
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* landing page section start*/
+#landing{
+  background-image:url(./images/donation13.jpg);
+    background-size: cover;   
+    background-position: top center;
+    position: relative; 
+    z-index: 1;
+}
+
+#landing::after{
+   content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+h1{
+    text-transform: capitalize;
+    font-size: 60px;
+    margin-top: 20%;
+    margin-bottom: 15px;
+    
+}
+
+.item-contain h1{   
+    width: 55%;
+    margin-left: 20%;
+}
+
+.button{
+    margin-top:90px ;
+    text-transform: uppercase;
+    background-color: #b74747;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    padding:10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 30px;;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+p{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.item-contain{
+    text-align: center;
+    min-height: 100%;
+    width: 100%;  
+}
+/* landing page section end */
