@@ -90,7 +90,7 @@ p{
     text-align: center;
 }
 #donate-amount{
-    height: 70vh;
+    height: 80vh;
     color: black;
 }
 
@@ -108,7 +108,15 @@ li{
     background: #bababa;
     list-style: none;
     }
-
+.inp {
+    border:none;
+    border-bottom: 2px solid #edeeee;
+    padding: 5px 10px;
+    outline: none;
+    font-size: 20px;
+    width: 30%;
+    text-align: center;
+ }
 
 
 /* donate page section end */
