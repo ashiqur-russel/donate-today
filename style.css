@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-  
 }
 
 body{
@@ -16,6 +15,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100%;
+    width: 100%;
 }
 
 h2{
@@ -130,7 +130,7 @@ li{
 /* donate plan page section  style start */
 
 #donate-plan{
-    height: 100vh;
+    height: 70vh;
     color: black;
     display: flex;
     flex-direction: column;
@@ -141,8 +141,6 @@ li{
     margin-left: 3%;
     display: inline;
     height: 50px;
-
-   
 }
 
 .column {
@@ -158,9 +156,146 @@ li{
   padding: 40px;
   text-align: center;
   background-color: #f1f1f1;
+  width: 20%;
+  height: 30%;
 }
 /* donate plan page section style  end */
 
 .plan-details{
     margin-bottom: 40px;
 }
+
+/* how to donate page style  start*/
+
+#donate-how{
+    height: 60vh;
+}
+
+.section-4-half{
+    height: 100%;
+    width: 100%;
+}
+.button3{
+    font-size: 12px   ; 
+    margin-left: 14px;  
+}
+.section-4-item{
+    width: 60%;
+    padding: 10%;
+  margin-left: 20%;
+}
+
+.section-4-item p{
+   text-align: left;
+   margin-left: 20px;
+   margin-bottom: 25px;
+   margin-top: 20px;
+   color: rgb(28, 28, 28);
+}
+.sec-4-title{
+   text-align: left;
+ }
+
+.section-4-half img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.donation-img{
+  height: 80%;
+  width: 55%;
+  padding: 40px;
+}
+/* survive page style section 5 start */
+
+#survive-how{
+    height: 60vh;
+}
+.survive-img{
+    height: 80%;
+    width: 55%;
+    padding: 40px;
+    margin-left:28%;   
+}
+
+.section-5-item p{
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    color: rgb(28, 28, 28);
+ }
+
+ .section-5-item{
+    width: 60%;
+    padding: 10%;
+    margin-right: 30%;
+}
+/* how to donate page style end*/
+
+#update{
+    height: 50vh;
+}
+
+.half-elemnts{
+    text-align: center;
+}
+
+.sec-6{
+    color: rgb(11, 11, 11);
+    padding: 5%;
+    background-color: #b74747;
+}
+
+.subscribe{
+    height: auto;
+    background-color: #2185C5;
+    position: relative;
+    padding:0;
+}
+.form{
+    background-color: #75d0c4;
+    width: 640px; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+.update-section h2 ,p{
+    float: top;
+    margin: 0;
+    padding: 0;
+}
+
+.update-section p {
+    margin-top: 10px;
+}
+
+input .inp{
+    border:none;
+    border-bottom: 2px solid #edeeee;
+    padding: 15px;
+    outline: none;
+    font-size: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    height: 20vh;
+    
+}
+
+.footer-title{
+    color: white;
+    font-family: 'Parisienne', cursive;
+    font-family: 'The Nautigal', cursive;
+    font-style: italic;
+        text-align: center;
+}
+
+/* Subscribe or update page */
