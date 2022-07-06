@@ -95,8 +95,9 @@ p{
 #donate-amount{
     height: 60vh;
     color: black;
-    border-bottom:1px solid #bababa;
+   background-color: #edeeee;
 }
+
 .para-details{
     padding:0 20%;
     align-items: center;
@@ -131,13 +132,18 @@ li{
 /* donate page section  style end */
 
 /* donate plan page section  style start */
+#donate-how{
+    height: 60vh;
+  
 
+}
 #donate-plan{
     height: 60vh;
     color: black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #edeeee;
 }
 .row {
     margin: 0 -5px;
@@ -188,11 +194,8 @@ background-color: #b74747;
 
 /* how to donate page style  start*/
 
-#donate-how{
-    height: 60vh;
-    border-bottom: 1px solid black;
 
-}
+
 
 .donate-how-elements{    
     margin: 0;
@@ -242,7 +245,6 @@ background-color: #b74747;
 
 #survive-how{
     height: 60vh;
-    border-bottom: 1px solid black;
 }
 .survive-img{
     height: 80%;
@@ -268,6 +270,7 @@ background-color: #b74747;
 
 #update{
     height: 50vh;
+    background-color: #edeeee;
 }
 
 .half-elemnts{
