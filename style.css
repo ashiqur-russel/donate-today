@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+   
 }
 
 body {
@@ -80,6 +81,8 @@ p {
 	text-align: center;
 	font-size: 16px;
 	margin-top: 5px;
+     line-height: 1rem;
+    letter-spacing: 1px;
 }
 
 .item-contain {
@@ -144,20 +147,6 @@ input[type="text"], textarea {
 	justify-content: space-between;
 }
 
-.row {
-	margin: 0 -5px;
-	margin-left: 3%;
-	display: inline;
-	height: 50px;
-}
-
-.column {
-	float: left;
-	width: 15%;
-	padding: 0 50px;
-	height: 100%;
-	border: 1px solid rebeccapurple;
-}
 
 .outer-card-plan {
 	max-width: 800px;
@@ -213,9 +202,9 @@ input[type="text"], textarea {
 	position: absolute;
 }
 
-.donat-how-card {
+.donate-how-card {
 	width: 100%;
-	height: 60%;
+	height: 90%;
 }
 
 .section-4-half {
@@ -284,9 +273,61 @@ input[type="text"], textarea {
 }
 
 /* story or news section style*/
-#story {
+#story-container {
 	height: 80vh;
 	background-color: #ededed;
+}
+
+.row{
+ display: flex;
+}
+
+.col{
+    padding: 1rem;
+    flex: 1;
+}
+
+.col {
+    border-right: 2px solid #c4c4c4;
+}
+
+h3{
+    margin: 10px 0;
+    color: black;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+#story-container{
+    line-height: 1rem;
+    letter-spacing: 1px;
+}
+
+.story{
+    height: 3px;
+}
+
+.story p{
+    color: rgb(41, 40, 40);
+    text-align: justify;
+}
+
+.read-more{
+    padding: 5px 5px;
+    margin-top: 5px;
+	text-transform: uppercase;
+	background-color: #100d0d;
+	border: none;
+	text-align: center;
+	cursor: pointer;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 10px;
 }
 /* how to donate page style end*/
 
@@ -308,6 +349,7 @@ input[type="text"], textarea {
 	position: relative;
 	padding: 0;
 }
+
 
 .form {
 	background-color: #e0e8e7;
