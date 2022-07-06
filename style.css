@@ -84,21 +84,24 @@ p{
 
 .item-contain{
     text-align: center;
-    min-height: 100%;
+    height: 100%;
     width: 100%;  
+    align-items: center;
 }
 
 /* landing page section end */
 
 /* donate page section start */
+#donate-amount{
+    height: 60vh;
+    color: black;
+    border-bottom:1px solid #bababa;
+}
 .para-details{
     padding:0 20%;
     align-items: center;
     text-align: center;
-}
-#donate-amount{
-    height: 80vh;
-    color: black;
+    
 }
 
 ul{
@@ -130,7 +133,7 @@ li{
 /* donate plan page section  style start */
 
 #donate-plan{
-    height: 70vh;
+    height: 60vh;
     color: black;
     display: flex;
     flex-direction: column;
@@ -151,24 +154,53 @@ li{
   border: 1px solid rebeccapurple;
  
 }
+
+
+.plan-details{
+    padding:0 20%;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+   
+}
+.donate-amount-card{
+background-color: #b74747;
+}
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 40px;
   text-align: center;
-  background-color: #f1f1f1;
-  width: 20%;
-  height: 30%;
+  width: 50%;
+  height: 50%;
+}
+.plan1{
+    background-color: #72e3c3;
+}
+.plan2{
+    background-color: #bd5c5c;
+}
+.plan3{
+    background-color: #539ad3;
 }
 /* donate plan page section style  end */
 
-.plan-details{
-    margin-bottom: 40px;
-}
+
 
 /* how to donate page style  start*/
 
 #donate-how{
     height: 60vh;
+    border-bottom: 1px solid black;
+
+}
+
+.donate-how-elements{    
+    margin: 0;
+    padding: 0;
+    height: 60vh;
+    margin-right: 20%;
+    position: absolute;
+
 }
 
 .section-4-half{
@@ -210,6 +242,7 @@ li{
 
 #survive-how{
     height: 60vh;
+    border-bottom: 1px solid black;
 }
 .survive-img{
     height: 80%;
@@ -244,17 +277,16 @@ li{
 .sec-6{
     color: rgb(11, 11, 11);
     padding: 5%;
-    background-color: #b74747;
 }
 
 .subscribe{
     height: auto;
-    background-color: #2185C5;
+
     position: relative;
     padding:0;
 }
 .form{
-    background-color: #75d0c4;
+    background-color: #e0e8e7;
     width: 640px; /* Can be in percentage also. */
     height: auto;
     margin: 0 auto;
@@ -295,7 +327,7 @@ footer{
     font-family: 'Parisienne', cursive;
     font-family: 'The Nautigal', cursive;
     font-style: italic;
-        text-align: center;
+    text-align: center;
 }
 
 /* Subscribe or update page */
